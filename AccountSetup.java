@@ -9,5 +9,6 @@ public class AccountSetup {
 
         System.out.println("Your name is " + name);
         System.out.println("Your password is " + password);
+        input.close();
     }
 }
